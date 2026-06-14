@@ -1,0 +1,18 @@
+# Ollama Telegram Bot Configuration
+# This is the main configuration file for your bot
+
+telegram:
+  bot_token: "8661877461:AAE6U9oC42duiXnVHw4DcRSuqvGbb2wottU"
+
+ollama:
+  model: "ministral-3:3b-cloud"
+  host: "http://localhost:11434"
+
+bot:
+  name: "Ollama Bot"
+  description: "A Telegram bot powered by Ollama for local AI interactions"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+
